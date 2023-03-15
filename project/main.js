@@ -1,4 +1,4 @@
-// //bai1
+// // //bai1
 // style=['jazz','Blues'];
 // style.push('Rocl-n-Roll');
 // style.splice(1,1,'Classics');
@@ -7,9 +7,10 @@
 
 
 // //bai2
-// var abc=[123,123,225];
+// var abc;
 //  var sum1=0;
 // function sumlnput(abc){
+//   let abc=prompt();
 //        for ( var i=0;i<=(abc.length-1);i++){
 //     if (typeof abc[i] !== 'number' || abc[i] ===''  || abc[i] === 'huy' ){
 //       } else  { sum1=sum1+abc[i]}
@@ -18,13 +19,19 @@
 // console.log(sum1);
     
 // //bai3
-// var str1="list-style-image";
-// function camelize(str){
-//    var came=str.replace(/-/g,'');
-//    return came;
-// };
-// camelize(str1);
-// console.log(camelize(str1));
+var str1="list-style-image";
+var i=0;
+function camelize(str){
+  
+  for (var key of str){
+    
+    str=str.toUppercase;}
+  
+   var came=str.replace(/-/g,'');
+   return came;
+};
+camelize(str1);
+console.log(camelize(str1));
 // //bai4
 // var arr1=[1,2,3,4,5,6,7,8,9];
 // function filterRanger(arr,a,b){
@@ -49,9 +56,9 @@
 // return arr1;
 // }
 
- // John, Pete, Mary
+//  John, Pete, Mary
 // console.log(names(users));
-//bai6
+// //bai6
 // let users = [
 //     {id: 'john', name: "John Smith", age: 20},
 //     {id: 'ann', name: "Ann Smith", age: 24},
@@ -74,15 +81,15 @@
 //   let usersById = groupById(users);
 //   console.log(usersById);
   
-  /*
-  // after the call we should have:
+//   /*
+//   // after the call we should have:
   
-  usersById = {
-    john: {id: 'john', name: "John Smith", age: 20},
-    ann: {id: 'ann', name: "Ann Smith", age: 24},
-    pete: {id: 'pete', name: "Pete Peterson", age: 31},
-  }
-  */
+//   usersById = {
+//     john: {id: 'john', name: "John Smith", age: 20},
+//     ann: {id: 'ann', name: "Ann Smith", age: 24},
+//     pete: {id: 'pete', name: "Pete Peterson", age: 31},
+//   }
+//   */
 //  //bai7 
 //  var user={}
 //  user.name='David';
@@ -122,14 +129,14 @@
 //  console.log(menu );
 
   
-  // after the call
-  // menu = {
-  //   width: 400,
-  //   height: 600,
-  //   title: "My menu cafedev"
-  // };
+//   after the call
+//   menu = {
+//     width: 400,
+//     height: 600,
+//     title: "My menu cafedev"
+//   };
   
-  //bai10
+//   bai10
 //   var Calculator={
 //        read: function(a,b){
 //         var name=prompt(a);
@@ -156,14 +163,14 @@
 //     }; return total;
 //   }
 //   }
-  // //bai11
-  // var k=0;
-  // var number=promt()
-  // if (k=0){
-  // for ( var i=0; i<=1,i++)
-  // if ( number <= 100){ k=1; 
-  //   break;}; else {number='';}
-  // };
+//   //bai11
+//   var k=0;
+//   var number=promt()
+//   if (k=0){
+//   for ( var i=0; i<=1,i++)
+//   if ( number <= 100){ k=1; 
+//     break;}; else {number='';}
+//   };
 
 //   }
 // //bai12
@@ -178,7 +185,7 @@
 // }
 // }
 // console.log(nt);
-//bai13
+// bai13
 // var x=321;
 // var t='';
 // var result;
@@ -204,12 +211,12 @@
 // };
 // console.log(k)
 // //bai15
-var n=10;
-var sum=0;
-var i=2
-while (i<=n){ if (i%2 === 0){sum=sum+i}
-i++;
-};
-console.log(sum)
+// var n=10;
+// var sum=0;
+// var i=2
+// while (i<=n){ if (i%2 === 0){sum=sum+i}
+// i++;
+// };
+// console.log(sum)
 
 

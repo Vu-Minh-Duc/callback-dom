@@ -1,0 +1,59 @@
+p { text-align: center;}
+#head {
+    width: 100%;
+    height: 150px;
+    color: blueviolet;
+}
+#logoh img {
+    height: 100px;
+    width: 100 px;
+}
+#logoh {
+    width: 20%;
+}
+#bannerh {
+width: 100%;
+}
+h1 {
+    color:black;
+    text-align: center;
+    background-image: url(./image/pan\ da\ 2.png) ;
+}
+#loiich {
+    height: 200px;
+    width: 100%;
+    background-color:gray;
+}
+.l1 {
+    height: 100px;
+    width: 33.5%;
+    
+}
+#loiich p {
+    text-align: center;
+    background-color:white;
+
+}
+#logo2 {
+    width: 20px;    
+    height: 20px;
+
+}
+#bannerlast {
+    
+
+
+}
+#tblast .ab {
+    width: 100%;
+    height: 200px;
+}
+#hline {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    background-image: url(./image/pan\ da\ 2.png);
+}
+#hline .last{
+    width: 33,5%;
+}
